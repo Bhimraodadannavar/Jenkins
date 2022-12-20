@@ -4,6 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.hospitalmanagement.Doctormodule.DoctorModuleTest"/>
+      <class name="com.hospitalmanagement.Doctormodule.PatientModuleTest"></class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
