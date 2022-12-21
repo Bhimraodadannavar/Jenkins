@@ -12,7 +12,7 @@ public class TestNGTest
 		String password = System.getProperty("password");
 		
 		System.out.println(url);
-		System.out.println(username);
+		System.out.println(username);	
 		System.out.println(password);
 	}
 

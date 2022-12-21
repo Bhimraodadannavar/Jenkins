@@ -57,9 +57,10 @@
 
 	</dependencies>
 
-
-	
-			<build>
+<profiles>
+	<profile>
+	<id>Sanity</id>
+		<build>
 				<plugins>
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
@@ -73,6 +74,6 @@
 					</plugin>
 				</plugins>
 			</build>
-		
-
+		</profile>
+</profiles>
 </project>
